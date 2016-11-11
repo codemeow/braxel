@@ -199,11 +199,11 @@ int main(void)
         CHECK(ecopy);
         data_draw(ecopy, point, i, round(sin(i / 20.0) * 40) + ecopy->height / 2);
         data_print(ecopy);
-        printf("\033[%uA", ecopy->height);
+        printf("\033[%uA", ecopy->height / BRAILLE_HEIGHT);
         usleep(100 * 1000);
         data_free(ecopy);
     }
-    printf("\033[%uB", earth->height);
+    printf("\033[%uB", earth->height / BRAILLE_HEIGHT);
     data_free(earth);
     data_free(point);
 
