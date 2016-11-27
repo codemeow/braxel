@@ -107,7 +107,7 @@ PData * from_image(char * filename)
     for (y = 0; y < height; y++)
     for (x = 0; x < width;  x++)
     {
-        data_set(result, x, y, rand() % 256 <= image_pixel(data, colort, x, y));
+        data_set(result, x, y, rand() % 256 < image_pixel(data, colort, x, y));
     }
 
     for (y = 0; y < height; y++)
