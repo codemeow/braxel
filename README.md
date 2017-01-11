@@ -1,4 +1,4 @@
-# Pixer
+# Braxel
 ASCII demonstration of Braille-based picture drawing
 
 Uses Braille symbols by provided byte-map.
