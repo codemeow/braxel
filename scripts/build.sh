@@ -47,6 +47,9 @@ Initialise()
     else
         Die "Wrong debug type, give 'debug' or 'release'"
     fi
+
+    mkdir -p ./bin
+    mkdir -p ./build
 }
 
 Include()
