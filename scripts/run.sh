@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export LD_LIBRARY_PATH=./bin/:./bin/libbraxel
+export LD_LIBRARY_PATH=./bin/
 
-./bin/tests/binary/smilo-test
+.//bin/tests/braxel-test
 
