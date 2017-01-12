@@ -1,0 +1,30 @@
+# «Braxel» - Braille-based console drawer
+#
+#  Copyright (C) Alexey Shishkin 2016-2017
+#
+#  This file is part of Project Braxel.
+#
+#  Project Braxel is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  Project Braxel is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#  GNU Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public License
+#  along with Project Braxel. If not, see <http://www.gnu.org/licenses/>.
+
+includes
+code/braxel
+code/braxel/definitions
+code/braxel/base
+code/braxel/xmacro
+code/libbraxel/definitions
+code/libbraxel/base
+code/libbraxel/alphabet
+code/libbraxel/graph
+code/libbraxel/xmacro
+code/libbraxel/help
