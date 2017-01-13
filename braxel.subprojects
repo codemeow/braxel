@@ -22,3 +22,6 @@ libbraxel
 
 # Libbraxel tester
 test
+
+# Argv drawer
+test2
